@@ -3,7 +3,7 @@ import React from 'react';
 
 function BennefitSection() {
   return (
-    <section id='features' className='w-full py-20 md:py-32'>
+    <section id='benefits' className='w-full py-20 md:py-32'>
       <div className='container px-4 md:px-6'>
         <div className='flex flex-col items-center justify-center space-y-4 text-center mb-12'>
           <div className='inline-flex items-center rounded-full border border-green-200 bg-white px-3 py-1 text-sm font-medium text-green-700'>
