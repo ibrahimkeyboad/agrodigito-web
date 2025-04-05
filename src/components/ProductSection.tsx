@@ -22,7 +22,7 @@ const categories = [
     name: 'Fungicides',
     description: 'Combat fungal infections and ensure crop health.',
     image:
-      'https://ohioline.osu.edu/sites/ohioline/files/01-31-hyg-fact-PP401_01.pdf.pdf-2_4.jpg',
+      'https://cdn.prod.website-files.com/66604a97df59732aab43fcc8/669e45c9d5f9e11cd72e2ff3_post1-small.webp',
 
     count: 24,
   },
