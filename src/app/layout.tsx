@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title:
     'Agrovet  - Connecting Agrovets with Trusted Agricultural Input Suppliers',
   description:
