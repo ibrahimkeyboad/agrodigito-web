@@ -77,7 +77,7 @@ const HeroSection = () => {
         <div className='flex justify-center mt-20'>
           <button
             onClick={() => scrollToSection('benefits')}
-            className='flex flex-col items-center text-agrilink-primary hover:text-agrilink-dark transition-colors'
+            className='flex flex-col items-center text-agrilink-primary hover:text-agrilink-dark cursor-pointer transition-colors'
             aria-label='Scroll to benefits section'>
             <span className='text-sm font-medium mb-2'>
               Discover the Benefits
