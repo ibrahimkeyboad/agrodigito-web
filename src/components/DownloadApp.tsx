@@ -1,9 +1,33 @@
-import { CheckCircle } from 'lucide-react';
+'use client';
+
+import { ArrowUp, CheckCircle } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 function DownloadApp() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  // Show button when user scrolls down 300px
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY > 300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', toggleVisibility);
+    return () => window.removeEventListener('scroll', toggleVisibility);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
     <section
       id='mobile-app'
@@ -115,6 +139,16 @@ function DownloadApp() {
           </div>
         </div>
       </div>
+      <button
+        onClick={scrollToTop}
+        className={`fixed bottom-8 right-8 p-4 rounded-full shadow-lg transition-all duration-300 z-50 ${
+          isVisible
+            ? 'opacity-100 translate-y-0'
+            : 'opacity-0 translate-y-4 pointer-events-none'
+        } bg-white text-agrilink-primary hover:bg-agrilink-primary hover:text-white focus:outline-hidden focus:ring-2 focus:ring-white`}
+        aria-label='Scroll to top of page'>
+        <ArrowUp size={22} strokeWidth={2.5} />
+      </button>
     </section>
   );
 }
