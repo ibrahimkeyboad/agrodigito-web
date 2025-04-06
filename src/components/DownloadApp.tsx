@@ -3,7 +3,6 @@
 import { ArrowUp, CheckCircle } from 'lucide-react';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
-import { Button } from './ui/button';
 
 function DownloadApp() {
   const [isVisible, setIsVisible] = useState(false);
