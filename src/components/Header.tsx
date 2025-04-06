@@ -1,5 +1,5 @@
 'use client';
-import { Download, Leaf } from 'lucide-react';
+import { Download, Leaf, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { Button } from './ui/button';
@@ -57,46 +57,55 @@ function Header() {
             Download App
           </Button>
         </div>
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className='md:hidden bg-white py-4 px-4 shadow-md'>
-            <div className='flex flex-col space-y-4'>
-              <a
-                href='#benefits'
-                className='text-gray-700 hover:text-agrilink-primary transition-colors'
-                onClick={() => setIsMenuOpen(false)}>
-                Why AgriLink
-              </a>
-              <a
-                href='#how-it-works'
-                className='text-gray-700 hover:text-agrilink-primary transition-colors'
-                onClick={() => setIsMenuOpen(false)}>
-                How it Works
-              </a>
-              <a
-                href='#products'
-                className='text-gray-700 hover:text-agrilink-primary transition-colors'
-                onClick={() => setIsMenuOpen(false)}>
-                Products
-              </a>
-              <a
-                href='#contact'
-                className='text-gray-700 hover:text-agrilink-primary transition-colors'
-                onClick={() => setIsMenuOpen(false)}>
-                Contact
-              </a>
-              <div className='pt-2'>
-                <Button
-                  variant='secondary'
-                  className='w-full shadow-md hover:shadow-lg transition-all'>
-                  <Download size={18} />
-                  Download App
-                </Button>
-              </div>
+
+        <div className='md:hidden'>
+          <Button
+            variant='ghost'
+            size='icon'
+            onClick={toggleMenu}
+            aria-label='Toggle menu'>
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </Button>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className='md:hidden bg-white py-4 px-4 shadow-md'>
+          <div className='flex flex-col space-y-4'>
+            <a
+              href='#benefits'
+              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              onClick={() => setIsMenuOpen(false)}>
+              Why AgriLink
+            </a>
+            <a
+              href='#how-it-works'
+              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              onClick={() => setIsMenuOpen(false)}>
+              How it Works
+            </a>
+            <a
+              href='#products'
+              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              onClick={() => setIsMenuOpen(false)}>
+              Products
+            </a>
+            <a
+              href='#contact'
+              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              onClick={() => setIsMenuOpen(false)}>
+              Contact
+            </a>
+            <div className='pt-2'>
+              <Button className='w-full bg-agrilink-primary shadow-md hover:shadow-lg transition-all'>
+                <Download size={18} />
+                Download App
+              </Button>
             </div>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </header>
   );
 }
