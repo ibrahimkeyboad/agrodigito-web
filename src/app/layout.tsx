@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title:
-    'Agrovet  - Connecting Agrovets with Trusted Agricultural Input Suppliers',
+    'Agri Link  - Connecting Agrovets with Trusted Agricultural Input Suppliers',
   description:
-    'Agrovet is the ultimate platform that bridges the gap between Agrovet businesses and top agricultural input producers and suppliers.',
+    'Agri Link is the ultimate platform that bridges the gap between Agrovet businesses and top agricultural input producers and suppliers.',
 };
 
 export default function RootLayout({
