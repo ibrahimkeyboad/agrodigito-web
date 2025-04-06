@@ -106,7 +106,7 @@ function DownloadApp() {
                     <span className='text-lg font-bold'>App Store</span>
                   </h3>
                 </button>
-                <button className='flex rounded-xl text-gray-900 gap-1 items-center border-gray-700 border h-16 px-6 text-lg transition-all hover:bg-gray-800 hover:text-white'>
+                <button className='flex rounded-xl justify-center text-gray-900 gap-1 items-center border-gray-700 border h-16 px-6 text-lg transition-all hover:bg-gray-800 hover:text-white'>
                   <svg
                     className='w-7'
                     viewBox='0 0 512 512'
