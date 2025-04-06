@@ -45,8 +45,8 @@ const HowItWorksSection = () => {
             Process
           </span>
           <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-900'>
-            How <span className='text-agrilink-primary'>Agro</span>
-            <span className='text-agrilink-secondary'>Vet</span> Works
+            How <span className='text-agrilink-primary'>Agri</span>
+            <span className='text-agrilink-secondary'>Link</span> Works
           </h2>
           <div className='w-20 h-1 bg-agrilink-primary mx-auto mb-8 rounded-full'></div>
           <p className='text-gray-600 max-w-2xl mx-auto text-lg'>
