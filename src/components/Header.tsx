@@ -3,13 +3,25 @@ import { Download, Leaf, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { Button } from './ui/button';
+import { useRouter } from 'next/navigation';
 
 function Header() {
+  const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  function goToDownloadSection(id: string) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  }
 
   return (
     <header className='sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 shadow-sm'>
@@ -53,7 +65,9 @@ function Header() {
           </Link>
         </nav>
         <div className='hidden md:flex'>
-          <Button className='bg-green-600 hover:bg-green-700 text-white font-medium rounded-md'>
+          <Button
+            onClick={() => goToDownloadSection('mobile-app')}
+            className='bg-green-600 hover:bg-green-700 text-white font-medium rounded-md'>
             Download App
           </Button>
         </div>
@@ -98,7 +112,9 @@ function Header() {
               Contact
             </a>
             <div className='pt-2'>
-              <Button className='w-full bg-agrilink-primary shadow-md hover:shadow-lg transition-all'>
+              <Button
+                onClick={() => goToDownloadSection('mobile-app')}
+                className='w-full bg-agrilink-primary shadow-md hover:shadow-lg transition-all'>
                 <Download size={18} />
                 Download App
               </Button>
