@@ -39,6 +39,7 @@ function DownloadApp() {
                 <div className='absolute -inset-1 rounded-xl bg-gradient-to-r from-green-600 to-green-400 opacity-30 blur'></div>
                 <div className='relative overflow-hidden rounded-xl border border-gray-200 bg-white shadow-lg'>
                   <Image
+                    priority
                     src='https://www.appletechsoft.com/wp-content/uploads/2020/08/Impact-of-Mobile-Apps-on-Agriculture-Industry.jpg'
                     width={300}
                     height={550}
