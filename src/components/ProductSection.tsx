@@ -84,6 +84,7 @@ const ProductCategoriesSection = () => {
               <div className='h-64 relative overflow-hidden'>
                 <div className='absolute inset-0 bg-linear-to-t from-black/70 to-transparent z-10'></div>
                 <Image
+                  priority
                   src={category.image}
                   alt={category.name}
                   width={600}
