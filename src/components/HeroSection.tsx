@@ -72,6 +72,7 @@ const HeroSection = () => {
               <div className='absolute -z-10 top-1/4 -left-4 w-36 h-36 rounded-full bg-agrilink-accent opacity-20 blur-3xl'></div>
               <div className='absolute -z-10 bottom-1/4 -right-4 w-40 h-40 rounded-full bg-agrilink-secondary opacity-20 blur-3xl'></div>
               <Image
+                priority
                 width={550}
                 height={550}
                 src='https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=80&w=600&h=600'
