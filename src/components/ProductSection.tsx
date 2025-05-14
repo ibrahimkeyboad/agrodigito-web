@@ -1,4 +1,3 @@
-import { ChevronRight } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import Image from 'next/image';
 
@@ -104,12 +103,6 @@ const ProductCategoriesSection = () => {
                 <p className='text-gray-600 group-hover:text-agrilink-primary transition-colors'>
                   {category.description}
                 </p>
-                <div className='ml-4 w-10 h-10 rounded-full flex items-center justify-center bg-agrilink-light group-hover:bg-agrilink-primary transition-colors'>
-                  <ChevronRight
-                    size={16}
-                    className='text-agrilink-primary group-hover:text-white transition-colors'
-                  />
-                </div>
               </CardContent>
             </Card>
           ))}
