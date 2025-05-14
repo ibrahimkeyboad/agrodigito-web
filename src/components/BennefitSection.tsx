@@ -61,8 +61,8 @@ function BennefitSection() {
               Efficient Logistics & Delivery Tracking
             </h3>
             <p className='text-gray-600'>
-              Monitor your shipments with real-time updates and estimated
-              delivery times.
+              Monitor your shipments with real-time updates and estimated quick
+              delivery. delivery times.
             </p>
           </div>
           <div className='flex flex-col items-start space-y-4 rounded-xl border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-md'>
