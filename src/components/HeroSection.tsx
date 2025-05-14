@@ -34,14 +34,14 @@ const HeroSection = () => {
             </h1>
             <div className='w-20 h-1 bg-agrilink-primary mb-8 rounded-full'></div>
             <h2 className='text-xl md:text-2xl lg:text-3xl text-gray-700 font-medium mb-8 leading-snug'>
-              Connecting Agrovets with Trusted Agricultural Chemical Suppliers
-              in Real Time
+              Connecting Agrovets with Trusted agricultural input suppliers real
+              time.
             </h2>
             <p className='text-gray-600 mb-10 max-w-lg text-lg'>
               AgriLink helps you prepare, buy, and distribute agricultural
-              chemicals efficiently. Get access to fertilizers, pesticides,
-              herbicides, and other crop protection products to maximize your
-              field yields.
+              inputs such as chemicals at affordable price and quick delivery.
+              Get access to fertilizers, pesticides, herbicides, and other crop
+              protection products to maximize your field yields.
             </p>
 
             <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8space-x-3'>
