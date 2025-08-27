@@ -1,6 +1,6 @@
 
-# AgriLink Robots.txt
-# https://agrilink.com/
+# Agrodigito Robots.txt
+# https://Agrodigito.com/
 
 User-agent: *
 Allow: /
@@ -35,4 +35,4 @@ User-agent: LinkedInBot
 Allow: /
 
 # Define sitemap location
-Sitemap: https://agrilink.com/sitemap.xml
+Sitemap: https://agrodigito.com/sitemap.xml
