@@ -36,11 +36,11 @@
   --color-green-200: #bbf7d0;
   --color-green-600: #16a34a;
 
-  --color-agrilink-primary: #2f855a;
-  --color-agrilink-secondary: #48bb78;
-  --color-agrilink-accent: #f6e05e;
-  --color-agrilink-light: #f0fff4;
-  --color-agrilink-dark: #22543d;
+  --color-agrodigito-primary: #2f855a;
+  --color-agrodigito-secondary: #48bb78;
+  --color-agrodigito-accent: #f6e05e;
+  --color-agrodigito-light: #f0fff4;
+  --color-agrodigito-dark: #22543d;
 
   --color-popover: hsl(var(--popover));
   --color-popover-foreground: hsl(var(--popover-foreground));
