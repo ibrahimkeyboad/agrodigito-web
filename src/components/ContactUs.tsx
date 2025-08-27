@@ -43,7 +43,7 @@ function ContactUs() {
             Get in Touch With Our Team
           </h2>
           <p className='max-w-[800px] text-gray-600 md:text-xl'>
-            We&apos;re here to answer your questions about Agri Link and help
+            We&apos;re here to answer your questions about Agrodigito and help
             transform your agricultural supply chain.
           </p>
         </div>
@@ -181,7 +181,7 @@ function ContactUs() {
                       htmlFor='privacy-policy'
                       className='text-sm text-gray-600'>
                       I agree to the processing of my personal data according to
-                      Agri Link&apos;s{' '}
+                      Agrodigito&apos;s{' '}
                       <Link href='#' className='text-green-600 hover:underline'>
                         Privacy Policy
                       </Link>
@@ -249,7 +249,7 @@ function ContactUs() {
                     </div>
                     <div className='space-y-1'>
                       <h4 className='font-semibold'>Email</h4>
-                      <p className='text-gray-600'>sales@agrilink.com</p>
+                      <p className='text-gray-600'>sales@agrodigito.com</p>
                     </div>
                   </div>
 

@@ -2,14 +2,14 @@ export default function StructuredData() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Agri Link',
-    url: 'https://agrilink.com',
-    logo: 'https://agrilink.com/images/logo.png',
+    name: 'Agrodigito',
+    url: 'https://agrodigito.com',
+    logo: 'https://agrodigito.com/images/logo.png',
     sameAs: [
-      'https://www.facebook.com/agrilink',
-      'https://www.twitter.com/agrilink',
-      'https://www.linkedin.com/company/agrilink',
-      'https://www.instagram.com/agrilink',
+      'https://www.facebook.com/agrodigito',
+      'https://www.twitter.com/agrodigito',
+      'https://www.linkedin.com/company/agrodigito',
+      'https://www.instagram.com/agrodigito',
     ],
     contactPoint: {
       '@type': 'ContactPoint',
@@ -26,17 +26,17 @@ export default function StructuredData() {
       addressCountry: 'US',
     },
     description:
-      'Agri Link is the ultimate platform that bridges the gap between Agrovet businesses and top agricultural input producers and suppliers.',
+      'Agrodigito is the ultimate platform that bridges the gap between Agrovet businesses and top agricultural input producers and suppliers.',
   };
 
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Agri Link',
-    url: 'https://agrilink.com',
+    name: 'Agrodigito',
+    url: 'https://agrodigito.com',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://agrilink.com/search?q={search_term_string}',
+      target: 'https://agrodigito.com/search?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };

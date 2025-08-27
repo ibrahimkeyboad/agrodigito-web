@@ -16,8 +16,8 @@ const Navbar = () => {
       <div className='container mx-auto px-4 md:px-6 flex justify-between items-center'>
         {/* Logo */}
         <div className='flex items-center'>
-          <span className='text-agrilink-primary font-bold text-xl md:text-2xl'>
-            Agro<span className='text-agrilink-secondary'>Vet</span>
+          <span className='text-agrodigito-primary font-bold text-xl md:text-2xl'>
+            Agro<span className='text-agrodigito-secondary'>Vet</span>
           </span>
         </div>
 
@@ -25,25 +25,25 @@ const Navbar = () => {
         <div className='hidden md:flex items-center space-x-6'>
           <a
             href='#benefits'
-            className='text-gray-700 hover:text-agrilink-primary transition-colors'>
-            Why AgriLink
+            className='text-gray-700 hover:text-agrodigito-primary transition-colors'>
+            Why Agrodigito
           </a>
           <a
             href='#how-it-works'
-            className='text-gray-700 hover:text-agrilink-primary transition-colors'>
+            className='text-gray-700 hover:text-agrodigito-primary transition-colors'>
             How it Works
           </a>
           <a
             href='#products'
-            className='text-gray-700 hover:text-agrilink-primary transition-colors'>
+            className='text-gray-700 hover:text-agrodigito-primary transition-colors'>
             Products
           </a>
           <a
             href='#contact'
-            className='text-gray-700 hover:text-agrilink-primary transition-colors'>
+            className='text-gray-700 hover:text-agrodigito-primary transition-colors'>
             Contact
           </a>
-          <Button className='bg-agrilink-primary hover:bg-agrilink-dark text-white'>
+          <Button className='bg-agrodigito-primary hover:bg-agrodigito-dark text-white'>
             Download App
           </Button>
         </div>
@@ -66,25 +66,25 @@ const Navbar = () => {
           <div className='flex flex-col space-y-4'>
             <a
               href='#benefits'
-              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
-              Why AgriLink
+              Why Agrodigito
             </a>
             <a
               href='#how-it-works'
-              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
               How it Works
             </a>
             <a
               href='#products'
-              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
               Products
             </a>
             <a
               href='#contact'
-              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
               Contact
             </a>

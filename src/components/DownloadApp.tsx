@@ -43,7 +43,7 @@ function DownloadApp() {
                     src='https://www.appletechsoft.com/wp-content/uploads/2020/08/Impact-of-Mobile-Apps-on-Agriculture-Industry.jpg'
                     width={300}
                     height={550}
-                    alt='AgriLink Mobile App'
+                    alt='Agrodigito Mobile App'
                     className='w-full object-cover'
                   />
                 </div>
@@ -56,7 +56,7 @@ function DownloadApp() {
               Mobile Application
             </div>
             <h2 className='text-3xl font-bold tracking-tighter md:text-4xl lg:text-5xl'>
-              Take AgriLink With You Everywhere
+              Take Agrodigito With You Everywhere
             </h2>
             <p className='max-w-[600px] text-gray-600 md:text-xl'>
               Access our platform on the go with our mobile app. Order products,
@@ -130,7 +130,7 @@ function DownloadApp() {
           isVisible
             ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-4 pointer-events-none'
-        } bg-white text-agrilink-primary hover:bg-agrilink-primary hover:text-white focus:outline-hidden focus:ring-2 focus:ring-white`}
+        } bg-white text-agrodigito-primary hover:bg-agrodigito-primary hover:text-white focus:outline-hidden focus:ring-2 focus:ring-white`}
         aria-label='Scroll to top of page'>
         <ArrowUp size={22} strokeWidth={2.5} />
       </button>

@@ -9,10 +9,10 @@ interface SeoMetaTagsProps {
 }
 
 export default function SeoMetaTags({
-  title = 'Agri Link - Connecting Agrovets with Trusted Agricultural Input Suppliers',
+  title = 'Agrodigito - Connecting Agrovets with Trusted Agricultural Input Suppliers',
   description = 'Streamlining agricultural supply chains by connecting Agrovet businesses with verified suppliers.',
-  canonicalUrl = 'https://agrilink.com',
-  ogImage = 'https://agrilink.com/images/og-image.jpg',
+  canonicalUrl = 'https://agrodigito.com',
+  ogImage = 'https://agrodigito.com/images/og-image.jpg',
   ogType = 'website',
 }: SeoMetaTagsProps) {
   return (
@@ -22,7 +22,7 @@ export default function SeoMetaTags({
       <meta name='description' content={description} />
       <meta
         name='keywords'
-        content='agri link, agricultural supply chain, agrovet suppliers, farm inputs, agricultural marketplace, agribusiness platform'
+        content='Agrodigito, agricultural supply chain, agrovet suppliers, farm inputs, agricultural marketplace, agribusiness platform'
       />
 
       {/* Canonical Link */}

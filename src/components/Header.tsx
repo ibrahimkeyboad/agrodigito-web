@@ -35,8 +35,8 @@ function Header() {
           <Link href='/' className='flex items-center space-x-2'>
             <Leaf className='h-6 w-6 text-green-600' />
 
-            <span className='text-agrilink-primary font-bold text-xl md:text-2xl'>
-              Agri<span className='text-agrilink-secondary'>Link</span>
+            <span className='text-agrodigito-primary font-bold text-xl md:text-2xl'>
+              Agro<span className='text-agrodigito-secondary'>digito</span>
             </span>
           </Link>
         </div>
@@ -87,32 +87,32 @@ function Header() {
           <div className='flex flex-col space-y-4'>
             <a
               href='#benefits'
-              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
-              Why AgriLink
+              Why Agrodigito
             </a>
             <a
               href='#how-it-works'
-              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
               How it Works
             </a>
             <a
               href='#products'
-              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
               Products
             </a>
             <a
               href='#contact'
-              className='text-gray-700 hover:text-agrilink-primary transition-colors'
+              className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
               Contact
             </a>
             <div className='pt-2'>
               <Button
                 onClick={() => goToDownloadSection('mobile-app')}
-                className='w-full bg-agrilink-primary shadow-md hover:shadow-lg transition-all'>
+                className='w-full bg-agrodigito-primary shadow-md hover:shadow-lg transition-all'>
                 <Download size={18} />
                 Download App
               </Button>

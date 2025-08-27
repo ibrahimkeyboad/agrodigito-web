@@ -58,17 +58,17 @@ const ProductCategoriesSection = () => {
     <section
       id='products'
       className='py-28 md:py-36 bg-gray-50 relative overflow-hidden'>
-      <div className='absolute bottom-0 left-0 w-full h-64 bg-linear-to-t from-agrilink-primary/5 to-transparent'></div>
+      <div className='absolute bottom-0 left-0 w-full h-64 bg-linear-to-t from-agrodigito-primary/5 to-transparent'></div>
 
       <div className='container mx-auto px-6 md:px-10 relative z-10'>
         <div className='text-center mb-20'>
-          <span className='inline-block px-4 py-1 bg-agrilink-accent/20 text-agrilink-dark rounded-full text-sm font-medium mb-4'>
+          <span className='inline-block px-4 py-1 bg-agrodigito-accent/20 text-agrodigito-dark rounded-full text-sm font-medium mb-4'>
             Categories
           </span>
           <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-900'>
             Our Product Categories
           </h2>
-          <div className='w-20 h-1 bg-agrilink-primary mx-auto mb-8 rounded-full'></div>
+          <div className='w-20 h-1 bg-agrodigito-primary mx-auto mb-8 rounded-full'></div>
           <p className='text-gray-600 max-w-2xl mx-auto text-lg'>
             Find all the agricultural chemicals and inputs you need to maximize
             your crop production.
@@ -90,7 +90,7 @@ const ProductCategoriesSection = () => {
                   height={500}
                   className='w-full h-full object-cover transition-transform duration-700 group-hover:scale-110'
                 />
-                <div className='absolute top-4 right-4 bg-agrilink-accent/80 text-agrilink-dark text-sm font-medium px-3 py-1 rounded-full z-20 backdrop-blur-xs'>
+                <div className='absolute top-4 right-4 bg-agrodigito-accent/80 text-agrodigito-dark text-sm font-medium px-3 py-1 rounded-full z-20 backdrop-blur-xs'>
                   {category.count} Products
                 </div>
                 <div className='absolute bottom-4 left-4 z-20'>
@@ -100,7 +100,7 @@ const ProductCategoriesSection = () => {
                 </div>
               </div>
               <CardContent className='p-8 flex justify-between items-center'>
-                <p className='text-gray-600 group-hover:text-agrilink-primary transition-colors'>
+                <p className='text-gray-600 group-hover:text-agrodigito-primary transition-colors'>
                   {category.description}
                 </p>
               </CardContent>

@@ -231,7 +231,7 @@ function Container() {
           <div className='flex flex-col items-center justify-center space-y-4 text-center mb-12'>
             <div className='inline-flex items-center rounded-full border border-green-200 bg-white px-3 py-1 text-sm font-medium text-green-700'>
               <span className='flex h-2 w-2 rounded-full bg-green-600 mr-2'></span>
-              How Agri Link Works
+              How Agrodigito Works
             </div>
             <h2 className='text-3xl font-bold tracking-tighter md:text-4xl lg:text-5xl'>
               Simple 4-Step Process
