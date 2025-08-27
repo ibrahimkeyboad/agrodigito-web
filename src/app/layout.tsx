@@ -15,36 +15,36 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title:
-    'Agri Link - Connecting Agrovets with Trusted Agricultural Input Suppliers',
+    'Agrodigito - Connecting Agrovets with Trusted Agricultural Input Suppliers',
   description:
-    'Agri Link is the ultimate platform that bridges the gap between Agrovet businesses and top agricultural input producers and suppliers.',
+    'Agrodigito is the ultimate platform that bridges the gap between Agrovet businesses and top agricultural input producers and suppliers.',
   keywords:
-    'agri link, agricultural supply chain, agrovet suppliers, farm inputs, agricultural marketplace, agribusiness platform',
-  authors: [{ name: 'Agri Link Team' }],
-  creator: 'Agri Link',
-  publisher: 'Agri Link Inc.',
+    'Agrodigito, agricultural supply chain, agrovet suppliers, farm inputs, agricultural marketplace, agribusiness platform',
+  authors: [{ name: 'Agrodigito Team' }],
+  creator: 'Agrodigito',
+  publisher: 'Agrodigito Inc.',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://agrilink.com'),
+  metadataBase: new URL('https://agrodigito.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title:
-      'Agri Link - Connecting Agrovets with Trusted Agricultural Input Suppliers',
+      'Agrodigito - Connecting Agrovets with Trusted Agricultural Input Suppliers',
     description:
       'Streamlining agricultural supply chains by connecting Agrovet businesses with verified suppliers.',
-    url: 'https://agrilink.com',
-    siteName: 'Agri Link',
+    url: 'https://agrodigito.com',
+    siteName: 'Agrodigito',
     images: [
       {
-        url: 'https://agrilink.com/images/og-image.jpg',
+        url: 'https://agrodigito.com/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Agri Link - Agricultural Supply Chain Platform',
+        alt: 'Agrodigito - Agricultural Supply Chain Platform',
       },
     ],
     locale: 'en_US',
@@ -53,11 +53,11 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title:
-      'Agri Link - Connecting Agrovets with Trusted Agricultural Input Suppliers',
+      'Agrodigito - Connecting Agrovets with Trusted Agricultural Input Suppliers',
     description:
       'Streamlining agricultural supply chains by connecting Agrovet businesses with verified suppliers.',
-    images: ['https://agrilink.com/images/twitter-image.jpg'],
-    creator: '@agrilink',
+    images: ['https://agrodigito.com/images/twitter-image.jpg'],
+    creator: '@agrodigito',
   },
   robots: {
     index: true,
