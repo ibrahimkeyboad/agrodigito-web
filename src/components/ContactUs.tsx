@@ -4,32 +4,6 @@ import Link from 'next/link';
 
 function ContactUs() {
   return (
-    // <section
-    //   id='contact'
-    //   className='w-full py-20 md:py-32 bg-gradient-to-b from-white to-green-100'>
-    //   <div className='container px-4 md:px-6'>
-    //     <div className='flex flex-col items-center justify-center space-y-6 text-center'>
-    //       <div className='space-y-2 max-w-3xl'>
-    //         <h2 className='text-3xl font-bold tracking-tighter md:text-4xl lg:text-5xl'>
-    //           Ready to Transform Your AgriLink Business?
-    //         </h2>
-    //         <p className='text-gray-600 md:text-xl'>
-    //           Join AgriLink today and connect with trusted agricultural input
-    //           suppliers in real-time.
-    //         </p>
-    //       </div>
-    //       <div className='flex flex-col gap-3 min-[400px]:flex-row mt-6'>
-    //         <Button
-    //           variant='outline'
-    //           size='lg'
-    //           className='border-green-600 text-green-700 hover:bg-green-50 font-medium rounded-md px-8'>
-    //           Contact Sales
-    //         </Button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section>
-
     <section
       id='contact'
       className='w-full py-20 md:py-32 bg-gradient-to-b from-white to-green-50'>
@@ -287,13 +261,11 @@ function ContactUs() {
                 <div className='space-y-3'>
                   <div className='flex justify-between'>
                     <span className='font-medium'>Monday - Friday</span>
-                    <span className='text-gray-600'>9:00 AM - 6:00 PM EST</span>
+                    <span className='text-gray-600'>9:00 AM - 6:00 PM</span>
                   </div>
                   <div className='flex justify-between'>
                     <span className='font-medium'>Saturday</span>
-                    <span className='text-gray-600'>
-                      10:00 AM - 4:00 PM EST
-                    </span>
+                    <span className='text-gray-600'>10:00 AM - 4:00 PM</span>
                   </div>
                   <div className='flex justify-between'>
                     <span className='font-medium'>Sunday</span>

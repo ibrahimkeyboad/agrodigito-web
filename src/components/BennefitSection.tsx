@@ -11,11 +11,12 @@ function BennefitSection() {
             Why Agrodigito?
           </div>
           <h2 className='text-3xl font-bold tracking-tighter md:text-4xl lg:text-5xl'>
-            Streamlining Agricultural Supply Chain
+            Empowering Agrovets to Digitize Their Supply Chain
           </h2>
           <p className='max-w-[800px] text-gray-600 md:text-xl'>
-            Our platform offers a comprehensive solution for Agrovet businesses
-            to connect with trusted suppliers.
+            Our platform offers a complete digital solution for agrovet shop
+            owners to buy agricultural inputs directly, manage restocking, and
+            access real-time product insights…..All in one app.
           </p>
         </div>
         <div className='mx-auto grid max-w-6xl grid-cols-1 gap-8 py-8 md:grid-cols-2 lg:grid-cols-3'>

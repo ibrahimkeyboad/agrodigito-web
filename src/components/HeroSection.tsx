@@ -38,10 +38,10 @@ const HeroSection = () => {
               time.
             </h2>
             <p className='text-gray-600 mb-10 max-w-lg text-lg'>
-              Agrodigito helps you prepare, buy, and distribute agricultural
-              inputs such as chemicals at affordable price and quick delivery.
-              Get access to fertilizers, pesticides, herbicides, and other crop
-              protection products to maximize your field yields.
+              AgroDigito helps agrovets purchase and restock agricultural inputs
+              such as seeds, fertilizers, pesticides, and more all through a
+              mobile app. Enjoy fair pricing, instant delivery, and real-time
+              product information to help run your shop smoothly and efficiently
             </p>
 
             <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8space-x-3'>
