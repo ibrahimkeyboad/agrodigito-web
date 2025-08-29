@@ -1,6 +1,5 @@
 'use client';
 
-import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import Image from 'next/image';
 
@@ -16,35 +15,47 @@ const HeroSection = () => {
   };
 
   return (
-    <section className='pt-36 pb-28 md:pt-44 md:pb-36 bg-linear-to-b from-agrodigito-light to-white relative overflow-hidden'>
-      <div className='absolute top-0 right-0 w-full h-full overflow-hidden z-0'>
-        <div className='absolute top-0 right-0 w-3/4 h-3/4 bg-agrodigito-accent/10 rounded-bl-[100%] transform translate-x-1/4 -translate-y-1/4'></div>
-        <div className='absolute bottom-0 left-0 w-1/2 h-1/2 bg-agrodigito-secondary/10 rounded-tr-[100%] transform -translate-x-1/4 translate-y-1/4'></div>
+    <section className='relative min-h-screen'>
+      <div className='absolute inset-0 z-0'>
+        <Image
+          src='/images/agriculture-drone-hero.png'
+          alt='Drone flying over agricultural field'
+          fill
+          className='object-cover'
+          priority
+        />
+        <div className='absolute inset-0 bg-gradient-to-r from-green-900/80 via-green-800/60 to-yellow-600/40' />
       </div>
 
-      <div className='container mx-auto px-6 md:px-10 relative z-10'>
+      {/* <div className='absolute top-0 right-0 w-full h-full overflow-hidden z-0'>
+        <div className='absolute top-0 right-0 w-3/4 h-3/4 bg-agrodigito-accent/10 rounded-bl-[100%] transform translate-x-1/4 -translate-y-1/4'></div>
+        <div className='absolute bottom-0 left-0 w-1/2 h-1/2 bg-agrodigito-accent/10 rounded-tr-[100%] transform -translate-x-1/4 translate-y-1/4'></div>
+      </div> */}
+
+      <div className='container relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20'>
         <div className='flex flex-col md:flex-row items-center'>
-          <div className='w-full md:w-1/2 animate-fade-in'>
-            <span className='inline-block px-4 py-1 bg-agrodigito-accent/20 text-agrodigito-dark rounded-full text-sm font-medium mb-6'>
+          <div className='w-full animate-fade-in'>
+            <div className='inline-flex items-center px-6 py-3   text-agrodigito-accent font-semibold mb-8 '>
+              <span className='w-2 h-2 bg-amber-300 rounded-full mr-3 animate-pulse'></span>
               Agricultural Supply Chain Solutions
-            </span>
-            <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight'>
+            </div>
+            <h1 className='text-5xl md:text-7xl font-bold text-white mb-6 leading-tight'>
               Welcome to <span className='text-agrodigito-primary'>Agro</span>
-              <span className='text-agrodigito-secondary'>digito</span>
+              <span className='text-amber-400'>Digito</span>
             </h1>
-            <div className='w-20 h-1 bg-agrodigito-primary mb-8 rounded-full'></div>
-            <h2 className='text-xl md:text-2xl lg:text-3xl text-gray-700 font-medium mb-8 leading-snug'>
+            <div className='w-20 h-1 bg-agrodigito-accent mb-8 rounded-full'></div>
+            <h2 className='text-xl md:text-2xl lg:text-3xl text-white font-medium mb-8 leading-snug'>
               Connecting Agrovets with Trusted agricultural input suppliers real
               time.
             </h2>
-            <p className='text-gray-600 mb-10 max-w-lg text-lg'>
+            <p className='text-xl md:text-2xl text-white/90 mb-8 max-w-3xl leading-relaxed'>
               AgroDigito helps agrovets purchase and restock agricultural inputs
               such as seeds, fertilizers, pesticides, and more all through a
               mobile app. Enjoy fair pricing, instant delivery, and real-time
               product information to help run your shop smoothly and efficiently
             </p>
 
-            <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8space-x-3'>
+            {/* <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8space-x-3'>
               <Button className='bg-black hover:bg-gray-800 text-white py-7 px-10 text-lg '>
                 <svg
                   className='h-5 w-5 mr-2'
@@ -65,33 +76,38 @@ const HeroSection = () => {
                 </svg>
                 Google Play
               </Button>
-            </div>
-          </div>
-          <div className='w-full md:w-1/2 mt-12 md:mt-0 flex justify-center animate-slide-up'>
-            <div className='relative w-full max-w-md'>
-              <div className='absolute -z-10 top-1/4 -left-4 w-36 h-36 rounded-full bg-agrodigito-accent opacity-20 blur-3xl'></div>
-              <div className='absolute -z-10 bottom-1/4 -right-4 w-40 h-40 rounded-full bg-agrodigito-secondary opacity-20 blur-3xl'></div>
-              <Image
-                priority
-                width={550}
-                height={550}
-                src='https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=80&w=600&h=600'
-                alt='Agricultural chemicals and crop fields'
-                className='w-full h-auto rounded-2xl shadow-2xl ring-4 ring-white'
-              />
-              <div className='absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-xl'>
-                <span className='text-agrodigito-primary font-bold'>100+</span>
-                <span className='text-gray-600 text-sm block'>
-                  Trusted Suppliers
-                </span>
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
+
+        {/* Statistics */}
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-2 pt-10'>
+          <div className='text-center sm:text-left'>
+            <div className='text-4xl md:text-5xl font-bold text-yellow-400 mb-2'>
+              98%
+            </div>
+            <div className='text-white/80 text-lg'>
+              Satisfied Agrovet Shops{' '}
+            </div>
+          </div>
+          <div className='text-center sm:text-left'>
+            <div className='text-4xl md:text-5xl font-bold text-yellow-400 mb-2'>
+              200+
+            </div>
+            <div className='text-white/80 text-lg'>Trusted Suppliers</div>
+          </div>
+          <div className='text-center sm:text-left'>
+            <div className='text-4xl md:text-5xl font-bold text-yellow-400 mb-2'>
+              24/7
+            </div>
+            <div className='text-white/80 text-lg'>Support Available</div>
+          </div>
+        </div>
+
         <div className='flex justify-center mt-20'>
           <button
             onClick={() => scrollToSection('benefits')}
-            className='flex flex-col items-center text-agrodigito-primary hover:text-agrodigito-dark cursor-pointer transition-colors'
+            className='flex flex-col items-center text-agrodigito-light hover:text-white cursor-pointer transition-colors'
             aria-label='Scroll to benefits section'>
             <span className='text-sm font-medium mb-2'>
               Discover the Benefits
