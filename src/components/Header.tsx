@@ -22,10 +22,9 @@ function Header() {
   }
 
   return (
-    <header className='sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 shadow-sm'>
+    // <header className='sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 shadow-sm'>
+    <header className='fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border'>
       <div className='container flex h-16 items-center justify-between'>
-      
-
         <div className='flex items-center'>
           <Link href='/' className='flex items-center space-x-2'>
             <Leaf className='h-6 w-6 text-green-600' />
@@ -38,22 +37,22 @@ function Header() {
         <nav className='hidden gap-8 md:flex'>
           <Link
             href='#benefits'
-            className='flex items-center text-sm font-medium text-gray-600 transition-colors hover:text-green-600'>
+            className='link-animated text-foreground hover:text-green-700'>
             Benefits
           </Link>
           <Link
             href='#how-it-works'
-            className='flex items-center text-sm font-medium text-gray-600 transition-colors hover:text-green-600'>
+            className='link-animated text-foreground hover:text-green-700'>
             How It Works
           </Link>
           <Link
             href='#products'
-            className='flex items-center text-sm font-medium text-gray-600 transition-colors hover:text-green-600'>
+            className='link-animated text-foreground hover:text-green-700'>
             Products
           </Link>
           <Link
             href='#contact'
-            className='flex items-center text-sm font-medium text-gray-600 transition-colors hover:text-green-600'>
+            className='link-animated text-foreground hover:text-green-700'>
             Contact
           </Link>
         </nav>
