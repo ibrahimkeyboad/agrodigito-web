@@ -15,7 +15,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className='relative min-h-screen'>
+    <section className='relative min-h-screen pt-12'>
       <div className='absolute inset-0 z-0'>
         <Image
           src='/images/agriculture-drone-hero.png'
