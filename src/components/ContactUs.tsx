@@ -200,7 +200,7 @@ function ContactUs() {
                     </div>
                     <div className='space-y-1'>
                       <h4 className='font-semibold'>Phone</h4>
-                      <p className='text-gray-600'>+255 763348756</p>
+                      <p className='text-gray-600'>+255 746 431 903</p>
                     </div>
                   </div>
 
