@@ -17,7 +17,7 @@ function ContactUs() {
             Get in Touch With Our Team
           </h2>
           <p className='max-w-[800px] text-gray-600 md:text-xl'>
-            We&apos;re here to answer your questions about Agrodigito and help
+            We&apos;re here to answer your questions about AgroDigito and help
             transform your agricultural supply chain.
           </p>
         </div>
@@ -155,7 +155,7 @@ function ContactUs() {
                       htmlFor='privacy-policy'
                       className='text-sm text-gray-600'>
                       I agree to the processing of my personal data according to
-                      Agrodigito&apos;s{' '}
+                      AgroDigito&apos;s{' '}
                       <Link href='#' className='text-green-600 hover:underline'>
                         Privacy Policy
                       </Link>

@@ -56,7 +56,7 @@ function DownloadApp() {
               Mobile Application
             </div>
             <h2 className='text-3xl font-bold tracking-tighter md:text-4xl lg:text-5xl'>
-              Take Agrodigito With You Everywhere
+              Take AgroDigito With You Everywhere
             </h2>
             <p className='max-w-[600px] text-gray-600 md:text-xl'>
               Access our platform on the go with our mobile app. Order products,

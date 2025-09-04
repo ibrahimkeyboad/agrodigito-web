@@ -1,4 +1,5 @@
 import { Leaf } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -9,9 +10,14 @@ function Footer() {
         <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4'>
           <div className='space-y-4'>
             <div className='flex items-center space-x-2'>
-              <Leaf className='h-6 w-6 text-green-600' />
+              <Image
+                width={60}
+                height={60}
+                src='/lo.png'
+                alt='Agrodigito logo'
+              />
               <h2 className='text-xl flex font-bold mb-4 text-white'>
-                <span className='text-agrodigito-secondary'>Agro</span>digito
+                <span className='text-agrodigito-secondary'>Agro</span>Digito
               </h2>
             </div>
             <p className='text-sm text-white'>

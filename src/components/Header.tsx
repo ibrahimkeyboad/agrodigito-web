@@ -3,6 +3,7 @@ import { Download, Leaf, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { Button } from './ui/button';
+import Image from 'next/image';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,10 +28,12 @@ function Header() {
       <div className='container flex h-16 items-center justify-between'>
         <div className='flex items-center'>
           <Link href='/' className='flex items-center space-x-2'>
-            <Leaf className='h-6 w-6 text-green-600' />
+            {/* <Leaf className='h-6 w-6 text-green-600' /> */}
+
+            <Image width={60} height={60} src='/lo.png' alt='AgroDigito Logo' />
 
             <span className='text-agrodigito-primary font-bold text-xl md:text-2xl'>
-              Agro<span className='text-agrodigito-secondary'>digito</span>
+              Agro<span className='text-agrodigito-secondary'>Digito</span>
             </span>
           </Link>
         </div>
@@ -83,7 +86,7 @@ function Header() {
               href='#benefits'
               className='text-gray-700 hover:text-agrodigito-primary transition-colors'
               onClick={() => setIsMenuOpen(false)}>
-              Why Agrodigito
+              Why AgroDigito
             </a>
             <a
               href='#how-it-works'
